@@ -12,3 +12,18 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+
+
+  Date_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Tell Date
+        run: |
+          date
+          
+  Directory_Content_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Directory_content
+        run: |
+          ls -l
