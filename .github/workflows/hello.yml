@@ -10,20 +10,16 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Say hello
-        run: |
-          echo "Hello World!"
+        run: echo "Hello World!"
 
-
-  Date_job:
+  date_job:
     runs-on: ubuntu-20.04
     steps:
       - name: Tell Date
-        run: |
-          date
-          
-  Directory_Content_job:
+        run: date
+
+  directory_content_job:
     runs-on: ubuntu-20.04
     steps:
-      - name: Directory_content
-        run: |
-          ls -l
+      - name: Directory Content
+        run: ls -l
